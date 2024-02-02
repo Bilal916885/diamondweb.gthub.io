@@ -1,0 +1,205 @@
+@media only screen and (max-width: 600px){
+    #slider-1 .text   p{
+        font-size: 1.7vw;
+        color: #E0DFF1;
+        line-height: 2.3vw;
+       margin: auto;
+       margin-top: .8vw;
+       text-align: center;
+       width: 40vw;
+    }
+
+.work-sec .work-boxes .box-1{
+   width: 44%;
+   padding: 2vw 3vw;
+   height: 42vw;
+
+    }
+.work-sec .work-boxes{
+    flex-direction: column;
+    gap: 2rem;
+}
+.work-sec .work-boxes .box-1 img{
+    width: 18vw;
+}
+.sellers-sec .main-seler{
+flex-direction: column;
+gap: 2rem;
+}
+.sellers-sec .main-seler .selr-right img{
+    width: 49vw;
+    display: flex;
+    margin: auto;
+    transform: translateX(-50px);
+}
+.sellers-sec .main-seler  .selr-left h4{
+    line-height: 5.5vw;
+}
+
+.discount-sec .discnt-boxes .row-1 .box-1{
+    width: 53%;
+    padding: 1vw 5vw;
+    
+}
+.discount-sec .discnt-boxes .row-1{
+    gap: 3vw;
+    margin-top: 10vw;
+}
+.discount-sec .discnt-boxes .row-2{
+    gap: 3vw;
+    
+}
+.discount-sec .discnt-boxes .row-2 .box-2{
+    width: 53%;
+    padding: 1vw 5vw;
+}
+.tokens-sec .token-boxs{
+    flex-direction: column;
+}
+.tokens-sec .token-boxs .left-box{
+    width: 60%;
+    padding: 1vw 5vw;
+    height: 45vw;
+}
+.tokens-sec .token-boxs .right-box{
+    width: 60%;
+    padding: 1vw 5vw;
+    height: 44vw;
+}
+.freqntly-qstns{
+    gap: 1rem;
+}
+
+.fotr-sec .ftr-row{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.fotr-sec .ftr-row .colm-1 p{
+    font-size: 1.5vw;
+    color: #fff;
+    margin-top: 2vw;
+    line-height: 3vw;
+  }
+  .fotr-sec .ftr-row .colm-1 img{
+    width: 26vw;
+  }
+  .fotr-sec .ftr-row .colm-1 ul li a{
+    font-size: 3vw;
+    color: #fff;
+    margin-left: .6vw;
+    margin-top: 0vw;
+  }
+  .fotr-sec .ftr-row .colm-2 ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 1.4vw;
+    font-family: gilory;
+    
+  }
+  .fotr-sec .ftr-row .colm-2 ul li{
+    margin-top: -.5rem;
+  }
+  .fotr-sec .ftr-row .colm-2 h4{
+    font-size: 3.5vw;
+  }
+  .container #carouselExampleIndicators .carousel-inner .carousel-item  .inner{
+    padding: 5vw 8vw;
+  }
+  .container #carouselExampleIndicators .carousel-inner .carousel-item  .inner .left{
+    width: 60%;
+}
+.container #carouselExampleIndicators .carousel-inner .carousel-item  .inner .right{
+    width: 40%;
+}
+#slider-1 #carouselExampleIndicators .carousel-inner .carousel-item  .inner .left p{
+    width: 25vw;
+}
+.imprvd-box{
+    width: 88%;
+    margin: auto;
+}
+.scrty-sec .scrty-boxes{
+    flex-direction: column;
+}
+.scrty-sec .scrty-boxes .left-box{
+    width: 50%;
+    padding: 2vw 6vw;
+}
+.scrty-sec .scrty-boxes .right-box{
+    width: 50%;
+    padding: 2vw 6vw;
+}
+#main-slider .owl-carousel .item .box p{
+    font-size: 1.7vw;
+    color: #E0DFF1;
+    line-height: 4vw;
+    width: 60vw;
+    padding: 2vw;
+
+}
+#main-slider .owl-carousel .item .box .imgs .txts span{
+    font-size: 1.3vw;
+}
+.work-sec{
+    position: relative;
+    margin-top: 13vw;
+}
+.frst-logo-sec {
+    position: relative;
+    margin-top: 14vw;
+}
+.free-seling {
+    position: relative;
+    margin-top: 17vw;
+}
+.glt-free-sec{
+    position: relative;
+    margin-top: 29vw;
+}
+.imprvd-box{
+    margin-top: 19vw;
+}
+.scnd-logo-sec{
+    margin-top: 13vw;
+}
+.sellers-sec{
+    margin-top: 12vw;
+
+}
+.discount-sec{
+    position: relative;
+    margin-top: 14vw;
+}
+.scrty-sec{
+    position: relative;
+    margin-top: 13vw;
+}
+.tokens-sec{
+    position: relative;
+    margin-top: 14vw;
+}
+}
+/* ------------------- */
+@media only screen and (max-width: 410px)
+{
+    .imprvd-box{
+        padding: 6vw  9vw;
+    } 
+    #main-slider .owl-carousel .item .box p{
+        width: 55vw;
+    } 
+    #slider-1 #carouselExampleIndicators .carousel-inner .carousel-item  .inner{
+        padding: 5vw 10vw;
+        gap: 1vw;
+        
+      }
+      #slider-1container #carouselExampleIndicators .carousel-inner .carousel-item  .inner .left{
+        width: 60%;
+    }
+    #slider-1 #carouselExampleIndicators .carousel-inner .carousel-item  .inner .right{
+        width: 40%;
+    }
+}
